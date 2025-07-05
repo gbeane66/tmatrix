@@ -34,11 +34,12 @@ E^{-}(d) &= E^{-}(0)e^{-ik_{z}d}
 $$
 
 Alternatively we can write this in matrix form as 
-$$\left[ {\begin{array}{cc}
+```math
+\left[ {\begin{array}{cc}
     E^{+}(d) \\
     E^{-}(d) \\
-  \end{array} } \right]$$
-  
+  \end{array} } \right]
+```
 $$
 \begin{align*}
 
