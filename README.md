@@ -34,12 +34,13 @@ E^{-}(d) &= E^{-}(0)e^{-ik_{z}d}
 $$
 
 Alternatively we can write this in matrix form as 
-```math
+$$
 \begin{pmatrix}
 e^{-ik_0 d n \cos{\theta}}&0\\
 0&e^{ik_0 d n \cos{\theta}}
 \end{pmatrix}
-```
+$$
+
 $$
 \begin{align*}
 
