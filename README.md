@@ -36,10 +36,10 @@ $$
 Alternatively we can write this in matrix form as 
 ```math
 \left( 
-    {\begin{array}{cc}
+    \begin{array}{cc}
     E^{+}(d) \\
     E^{-}(d) \\
-  \end{array} } 
+  \end{array}  
 \right)
 ```
 $$
