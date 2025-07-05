@@ -35,12 +35,10 @@ $$
 
 Alternatively we can write this in matrix form as 
 ```math
-\left( 
-    \begin{array}{cc}
-    E^{+}(d) \\
-    E^{-}(d) \\
-  \end{array}  
-\right)
+\begin{pmatrix}
+e^{-ik_0 d n \cos{\theta}}&0\\
+0&e^{ik_0 d n \cos{\theta}}
+\end{pmatrix}
 ```
 $$
 \begin{align*}
