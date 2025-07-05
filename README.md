@@ -35,12 +35,12 @@ $$
 
 Alternatively we can write this in matrix form as 
 ```math
-\left[ 
+\left( 
     {\begin{array}{cc}
     E^{+}(d) \\
     E^{-}(d) \\
   \end{array} } 
-\right]
+\right)
 ```
 $$
 \begin{align*}
