@@ -6,7 +6,7 @@ It is possible to simulate the propagation of light through multilayered media u
 
 Let us assume we have a plane wave propagating in the forward direction (+z):
 
-%
+$
 \begin{equation}
 E^{+}(z) = E^{+}e^{ik_{z}z}
 \end{equation}
