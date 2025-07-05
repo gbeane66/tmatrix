@@ -8,6 +8,6 @@ Let us assume we have a plane wave propagating in the forward direction (+z):
 
 $$
 \begin{equation}
-E^{+}(z) = E^{+}e^{ik_{z}z}
+E^{+}(z) = E^{+}(0)e^{ik_{z}z}
 \end{equation}
 $$
