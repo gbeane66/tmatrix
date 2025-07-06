@@ -56,10 +56,10 @@ Since we want subsequent matrices to be inserted on the right we will invert the
     E^{-}(0) \\
   \end{array} } \right] = \left[ {\begin{array}{cc}
     e^{-ik_{z}d} & 0 \\
-    0 & e^{ik_{z}d} \\
+    0 & e^{ik_{z}d}
   \end{array} } \right]\left[ {\begin{array}{cc}
     E^{+}(d) \\
-    E^{-}(d) \\
+    E^{-}(d)
 \end{array} } \right]
 ```
 
@@ -69,10 +69,10 @@ Let us now define the **transfer (propagation) matrix** as
 
   T^{(prop)} = \left[ {\begin{array}{cc}
     e^{-ik_{z}d} & 0 \\
-    0 & e^{ik_{z}d} \\
+    0 & e^{ik_{z}d}
   \end{array} } \right] = \left[ {\begin{array}{cc}
     e^{-ik_{0}dncos(\theta)} & 0 \\
-    0 & e^{ik_{0}dncos(\theta)} \\
+    0 & e^{ik_{0}dncos(\theta)}
   \end{array} } \right]
 
 ```
