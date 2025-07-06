@@ -37,14 +37,10 @@ Alternatively we can write this in matrix form as
 
 $$ 
 M =
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 0 \\
 0 & 1
-\end{bmatrix}
-\begin{bmatrix}
-1 & 0 \\
-0 & 1
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 $$
