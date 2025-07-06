@@ -38,7 +38,7 @@ Alternatively we can write this in matrix form as
 ```math
   \left[ {\begin{array}{cc}
     E^{+}(d) \\
-    E^{-}(d) \\
+    E^{-}(d)
   \end{array} } \right] = \left[ {\begin{array}{cc}
     e^{ik_{z}d} & 0 \\
     0 & e^{-ik_{z}d}
