@@ -82,12 +82,16 @@ Let us now define the **transfer (propagation) matrix** as
 For the TE (Transverse electric; s-polarisation) and TM (Transverse magnetic; p-polarisation) cases we can calculate the reflection and transmission coeficients using the Fresnel equations
 
 ```math
-
-r^{(TE)}_{12} = \frac{n_{1}cos(\theta_{1}) - n_{2}cos(\theta_{2})}{n_{1}cos(\theta_{1}) + n_{2}cos(\theta_{2})} \\~\\
-t^{(TE)}_{12} = \frac{2n_{1}cos(\theta_{1})}{n_{1}cos(\theta_{1}) + n_{2}cos(\theta_{2})} \\~\\
-r^{(TM)}_{12} = \frac{n_{2}cos(\theta_{1}) - n_{1}cos(\theta_{2})}{n_{2}cos(\theta_{1}) + n_{1}cos(\theta_{2})} \\~\\
-t^{(TM)}_{12} = \frac{2n_{1}cos(\theta_{1})}{n_{2}cos(\theta_{1}) + n_{1}cos(\theta_{2})} \\
-
+r^{(TE)}_{12} = \frac{n_{1}cos(\theta_{1}) - n_{2}cos(\theta_{2})}{n_{1}cos(\theta_{1}) + n_{2}cos(\theta_{2})}
+```
+```math
+t^{(TE)}_{12} = \frac{2n_{1}cos(\theta_{1})}{n_{1}cos(\theta_{1}) + n_{2}cos(\theta_{2})}
+```
+```math
+r^{(TM)}_{12} = \frac{n_{2}cos(\theta_{1}) - n_{1}cos(\theta_{2})}{n_{2}cos(\theta_{1}) + n_{1}cos(\theta_{2})}
+```
+```math
+t^{(TM)}_{12} = \frac{2n_{1}cos(\theta_{1})}{n_{2}cos(\theta_{1}) + n_{1}cos(\theta_{2})}
 ```
 
 $r_{12}$ and $t_{12}$ are the complex reflection and transmission coefficients from medium 1 to 2 (for either TE or TM polarisation).
