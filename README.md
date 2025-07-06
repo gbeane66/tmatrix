@@ -53,7 +53,7 @@ Since we want subsequent matrices to be inserted on the right we will invert the
 ```math
 \left[ {\begin{array}{cc}
     E^{+}(0) \\
-    E^{-}(0) \\
+    E^{-}(0)
   \end{array} } \right] = \left[ {\begin{array}{cc}
     e^{-ik_{z}d} & 0 \\
     0 & e^{ik_{z}d}
@@ -75,4 +75,38 @@ Let us now define the **transfer (propagation) matrix** as
     0 & e^{ik_{0}dncos(\theta)}
   \end{array} } \right]
 
+```
+
+## Interface Matrix
+
+For the TE (Transverse electric; s-polarisation) and TM (Transverse magnetic; p-polarisation) cases we can calculate the reflection and transmission coeficients using the Fresnel equations
+
+```math
+
+r^{(TE)}_{12} = \frac{n_{1}cos(\theta_{1}) - n_{2}cos(\theta_{2})}{n_{1}cos(\theta_{1}) + n_{2}cos(\theta_{2})} \\~\\
+t^{(TE)}_{12} = \frac{2n_{1}cos(\theta_{1})}{n_{1}cos(\theta_{1}) + n_{2}cos(\theta_{2})} \\~\\
+r^{(TM)}_{12} = \frac{n_{2}cos(\theta_{1}) - n_{1}cos(\theta_{2})}{n_{2}cos(\theta_{1}) + n_{1}cos(\theta_{2})} \\~\\
+t^{(TM)}_{12} = \frac{2n_{1}cos(\theta_{1})}{n_{2}cos(\theta_{1}) + n_{1}cos(\theta_{2})} \\
+
+```
+
+$r_{12}$ and $t_{12}$ are the complex reflection and transmission coefficients from medium 1 to 2 (for either TE or TM polarisation).
+
+The angles $\theta_{1}$ and $\theta_{2}$ are the angles of propagation in medium 1 and 2 respectively, which are related by **Snell's Law**
+
+```math
+n_{1}sin(\theta_{1}) = n_{2}sin(\theta_{2})
+```
+
+Using these equations we can now calculate the transfer matrix corresponding to the interface between two media.
+Waves coming from the left and right side will result in output waves given by the scattering matrix 
+
+```math
+\left[ {\begin{array}{cc}
+    E^{-} \\
+    E^{+}
+  \end{array} } \right] = \left[ {\begin{array}{cc}
+    r_{12} & t_{21} \\
+    t_{12} & r_{21}
+  \end{array} } \right]
 ```
