@@ -41,10 +41,10 @@ Alternatively we can write this in matrix form as
     E^{-}(d) \\
   \end{array} } \right] = \left[ {\begin{array}{cc}
     e^{ik_{z}d} & 0 \\
-    0 & e^{-ik_{z}d} \\
+    0 & e^{-ik_{z}d}
   \end{array} } \right]\left[ {\begin{array}{cc}
     E^{+}(0) \\
-    E^{-}(0) \\
+    E^{-}(0)
   \end{array} } \right]
 ```
 
