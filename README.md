@@ -34,7 +34,9 @@ E^{-}(d) &= E^{-}(0)e^{-ik_{z}d}
 $$
 
 Alternatively we can write this in matrix form as 
-$\begin{bmatrix} X \\\ Y \end{bmatrix}$
+```math
+\begin{bmatrix} X \\\ Y \end{bmatrix}
+```
 
 $$
 \begin{align*}
