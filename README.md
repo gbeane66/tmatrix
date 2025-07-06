@@ -35,17 +35,7 @@ $$
 
 Alternatively we can write this in matrix form as 
 
-$$ 
-M =
-\begin{pmatrix}
-1 & 0 \\
-0 & 1
-\end{pmatrix}
-$$
-
-$$
-\begin{align*}
-
+```math
   \left[ {\begin{array}{cc}
     E^{+}(d) \\
     E^{-}(d) \\
@@ -56,9 +46,7 @@ $$
     E^{+}(0) \\
     E^{-}(0) \\
   \end{array} } \right]
-
-\end{align*}
-$$
+```
 
 Since we want subsequent matrices to be inserted on the right we will invert the form of this matrix equation to
 
