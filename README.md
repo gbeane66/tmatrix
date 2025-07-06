@@ -34,11 +34,16 @@ E^{-}(d) &= E^{-}(0)e^{-ik_{z}d}
 $$
 
 Alternatively we can write this in matrix form as 
-$$
+
+$$ 
+M =
 \begin{bmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-7 & 8 & 9
+1 & 0 \\
+0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 \\
+0 & 1
 \end{bmatrix}
 $$
 
