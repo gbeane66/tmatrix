@@ -50,10 +50,8 @@ Alternatively we can write this in matrix form as
 
 Since we want subsequent matrices to be inserted on the right we will invert the form of this matrix equation to
 
-$$
-\begin{align*}
-
-  \left[ {\begin{array}{cc}
+```math
+\left[ {\begin{array}{cc}
     E^{+}(0) \\
     E^{-}(0) \\
   \end{array} } \right] = \left[ {\begin{array}{cc}
@@ -62,15 +60,12 @@ $$
   \end{array} } \right]\left[ {\begin{array}{cc}
     E^{+}(d) \\
     E^{-}(d) \\
-  \end{array} } \right]
+\end{array} } \right]
+```
 
-\end{align*}
-$$
+Let us now define the **transfer (propagation) matrix** as 
 
-Let us now define the **transfer(propagation) matrix**, $T^{(prop)}$ as 
-
-$$
-\begin{align*}
+```math
 
   T^{(prop)} = \left[ {\begin{array}{cc}
     e^{-ik_{z}d} & 0 \\
@@ -80,5 +75,4 @@ $$
     0 & e^{ik_{0}dncos(\theta)} \\
   \end{array} } \right]
 
-\end{align*}
-$$
+```
