@@ -35,7 +35,11 @@ $$
 
 Alternatively we can write this in matrix form as 
 ```math
-\begin{bmatrix} X \\\ Y \end{bmatrix}
+\begin{matrix}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{matrix}
 ```
 
 $$
